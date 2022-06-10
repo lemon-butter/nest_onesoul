@@ -9,9 +9,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ){
-  if(req.method === 'POST'){
-    res.setHeader("Set-Cookie", "a_name=Mike;Max-Age=3600;HttpOnly,Secure");
-    res.statusCode = 200;
-    res.json({ message: "ok" });
-  }
+  res.setHeader("Set-Cookie", "a_name=Mike;Max-Age=0;HttpOnly,Secure");
+  res.statusCode = 200;
+  res.json({ message: "ok" });
 };

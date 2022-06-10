@@ -12,6 +12,7 @@
     "@nestjs/config": "^2.1.0",
     "@types/redux-logger": "^3.0.9",
     "@types/redux-promise": "^0.5.29",
+    "axios": "^0.27.2",
     "next": "12.1.6",
     "next-redux-wrapper": "^7.0.5",
     "react": "18.1.0",
